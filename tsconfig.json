@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",                          /* Output modern JavaScript */
+    "module": "commonjs",                        /* Standard Node.js module system */
+    "rootDir": "./src",                          /* Where you write your TS code */
+    "outDir": "./dist",                          /* Where compiled JS goes */
+    "esModuleInterop": true,                     /* Enables universal module imports */
+    "forceConsistentCasingInFileNames": true,   /* Prevents cross-platform file bugs */
+    "strict": true,                              /* Enables strict type checking */
+    "skipLibCheck": true                         /* Speeds up compilation */
+  },
+  "include": ["src/**/*"]                        /* Compile everything in src */
+}
